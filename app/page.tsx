@@ -10,7 +10,7 @@ export default function Home() {
           description="This is a sample card description that has been made longer to demonstrate how the card handles more text content."
           button1Text="Cancel"
           button2Text="Save"
-          onClose={() => console.log("Close")}
+          title="Sample Card Title"
           onButton1={() => console.log("Button 1 clicked")}
           onButton2={() => console.log("Button 2 clicked")}
         />
